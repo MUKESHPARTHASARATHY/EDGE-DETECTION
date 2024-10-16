@@ -32,7 +32,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image
-image = cv2.imread('happy Fish.jpg')  # Replace with your image path
+image = cv2.imread('VJK.jpg')  # Replace with your image path
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Apply Sobel edge detector
@@ -75,18 +75,28 @@ plt.show()
 ```
 
 ## Output:
+### Original Image
+
+![WhatsApp Image 2024-10-16 at 16 11 25_eff86cf1](https://github.com/user-attachments/assets/03bff3cc-871f-4409-a314-394a0e10a36b)
+
 ### SOBEL EDGE DETECTOR
 
-![image](https://github.com/user-attachments/assets/6f186dcc-9857-457e-8b5b-3ea262766650)
+![WhatsApp Image 2024-10-16 at 16 11 30_1246442b](https://github.com/user-attachments/assets/6c1a2428-ec9c-42c5-b3cf-8f43341e7214)
+
+
 
 
 ### LAPLACIAN EDGE DETECTOR
-![image](https://github.com/user-attachments/assets/d15901f7-7339-420a-8c03-92fb23e4a5ed)
+
+![WhatsApp Image 2024-10-16 at 16 11 36_7f2414e9](https://github.com/user-attachments/assets/43466e19-3b29-422b-a4af-eca29d31fe54)
+
 
 
 
 ### CANNY EDGE DETECTOR
-![image](https://github.com/user-attachments/assets/1a8e5251-c60b-4530-a9f5-c4d0f6c981d7)
+
+![WhatsApp Image 2024-10-16 at 16 11 42_6380711d](https://github.com/user-attachments/assets/35d64be8-c101-48d6-9f24-8261187f4f7f)
+
 
 
 ## Result:
